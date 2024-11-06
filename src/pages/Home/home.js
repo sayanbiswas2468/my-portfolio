@@ -126,7 +126,7 @@ function Home() {
                             <span> Grow</span></h1>
                     </div>
                     <div className="content-secondary">
-                        <p>I am software developer with more than two years of experience. recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within target.</p>
+                        <p>I am software developer with more than two years of experience. Recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within target.</p>
                     </div>
                 </div>
                 <div className="hero-icon">
