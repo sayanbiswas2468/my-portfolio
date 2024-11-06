@@ -1,0 +1,71 @@
+# Node modules directory
+node_modules/
+
+# Dependency directories for Yarn / pnpm
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Production build files
+/build
+/dist
+
+# Static bundling
+.bundle/
+.sass-cache/
+
+# Cache directories
+.cache/
+.next/
+.nuxt/
+out/
+parcel-cache/
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+jest-html-reporters-*
+
+# Parcel
+.cache/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code
+.vscode/*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Storybook files
+.storybook-out/
+
+# Optional npm files
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Local history in IntelliJ IDEA
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Firebase
+.firebase
