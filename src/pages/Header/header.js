@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import React, { useRef, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import logo from '../../assets/images/logo.svg';
+import sayan from '../../assets/images/Sayan.svg'
 import './header.scss';
 import './header.style.js';
 import { SiLeetcode } from "react-icons/si";
@@ -84,10 +85,12 @@ function Header() {
   return (
     <div className="header">
       <div className="logo" onClick={nav}>
-        <object data={logo} type="image/svg+xml" title="Logo" alt="Logo">
+        {/* <object data={logo} type="image/svg+xml" title="Logo" alt="Logo">
           <p>No SVG support, here's a substitute</p>
           <img src={logo} alt="Logo" />
-        </object>
+        </object> */}
+        <img src={sayan} alt="Sayan" width={60}/>
+        
       </div>
 
       <div className="menu-toggle">
