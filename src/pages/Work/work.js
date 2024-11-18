@@ -1,7 +1,7 @@
 import Bankease from '../../assets/images/Bankease.png';
 import Geargrid from '../../assets/images/Geargrid.png';
 import Mistore from '../../assets/images/Mi-Store.png';
-import Threads from '../../assets/images/Threads.png';
+import Texts from '../../assets/images/Texts.png';
 import './work.scss';
 function Work() {
     return (
@@ -49,14 +49,14 @@ function Work() {
                 </div>
                 <div className="single">
                     <div className="single-img">
-                        <img src={Threads} alt="" />
+                        <img src={Texts} alt="" />
                     </div>
                     <div className="single-detail">
-                        <h4>Threads</h4>
+                        <h4>Texts</h4>
                         <p>A social media platform lets you connect and share through threaded posts. Start conversations, reply to others, and keep discussions organized, all in a simple, engaging space designed for meaningful connections.</p>
                         <div class="button-wrap">
                         <button className="button" onClick={() => {
-                                window.open('https://github.com/sayanbiswas2468/Threads', '_blank');
+                                window.open('https://github.com/sayanbiswas2468/Texts', '_blank');
                             }}>Visit &rarr;</button>
                         </div>
                     </div>

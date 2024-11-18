@@ -1,7 +1,7 @@
 import Bankease from '../assets/images/Bankease.png'
 import Geargrid from '../assets/images/Geargrid.png'
 import Mistore from '../assets/images/Mi-Store.png'
-import Threads from '../assets/images/Threads.png'
+import Texts from '../assets/images/Texts.png'
 export const ProjectData = [
     {
         title: "Bankease",
@@ -18,9 +18,9 @@ export const ProjectData = [
         link: "https://pipar-beta.vercel.app/"
     },
     {
-        title: "Threads",
+        title: "Texts",
         description: "A social media platform lets you connect and share through threaded posts. Start conversations, reply to others, and keep discussions organized, all in a simple, engaging space designed for meaningful connections.",
-        img: Threads,
+        img: Texts,
         stack: "Next Js",
         link: "https://github.com/sayanbiswas2468/Threads"
     },

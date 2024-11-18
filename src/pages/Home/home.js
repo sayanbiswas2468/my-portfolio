@@ -10,7 +10,7 @@ import Bankease from '../../assets/images/Bankease.png';
 import Bgs from '../../assets/images/bg.svg';
 import Geargrid from '../../assets/images/Geargrid.png';
 import Mistore from '../../assets/images/Mi-Store.png';
-import Threads from '../../assets/images/Threads.png';
+import Texts from '../../assets/images/Texts.png';
 import { ReactComponent as QuoteLeft } from './../../assets/images/quote-left.svg';
 import { ReactComponent as QuoteRight } from './../../assets/images/quote-right.svg';
 import ProjectSlider from './../../components/projectSlider';
@@ -27,7 +27,7 @@ const Data = [
     },
     {
         id: 2,
-        img: Threads,
+        img: Texts,
     },
     {
         id: 3,
