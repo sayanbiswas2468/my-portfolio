@@ -15,11 +15,11 @@ import { ReactComponent as QuoteLeft } from './../../assets/images/quote-left.sv
 import { ReactComponent as QuoteRight } from './../../assets/images/quote-right.svg';
 import ProjectSlider from './../../components/projectSlider';
 import './home.scss';
-
+import AiInterview from '../../assets/images/AiInterview.png'
 const Data = [
     {
         id: 0,
-        img: Bankease,
+        img: AiInterview,
     },
     {
         id: 1,
@@ -32,6 +32,10 @@ const Data = [
     {
         id: 3,
         img: Mistore,
+    },
+    {
+        id: 4,
+        img: Bankease,
     },
 
 ];

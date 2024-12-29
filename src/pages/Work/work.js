@@ -2,6 +2,7 @@ import Bankease from '../../assets/images/Bankease.png';
 import Geargrid from '../../assets/images/Geargrid.png';
 import Mistore from '../../assets/images/Mi-Store.png';
 import Texts from '../../assets/images/Texts.png';
+import AiInterview from '../../assets/images/AiInterview.png';
 import './work.scss';
 function Work() {
     return (
@@ -20,15 +21,15 @@ function Work() {
             <div className="projects">
                 <div className="single">
                     <div className="single-img">
-                        <img src={Bankease} alt="" />
+                        <img src={AiInterview} alt="" />
                     </div>
                     <div className="single-detail">
-                        <h4>BankEase</h4>
+                        <h4>Zeko AI</h4>
                         <p>
-                            An account management software, you can add cards, transfer money, and view transactions by category—all in one place. Stay organized and in control of your finances effortlessly.</p>
+                        Designed an AI-powered interview platform that leverages advanced AI to conduct seamless and interactive interviews. The platform enables efficient candidate evaluation through real-time AI-driven assessments and feedback.</p>
                         <div className="button-wrap">
                             <button className="button" onClick={() => {
-                                window.open('https://github.com/sayanbiswas2468/banking_app', '_blank');
+                                window.open('https://github.com/sayanbiswas2468/Ai-Interview', '_blank');
                             }}>Visit &rarr;</button>
                         </div>
                     </div>
@@ -55,7 +56,7 @@ function Work() {
                         <h4>Texts</h4>
                         <p>A social media platform lets you connect and share through threaded posts. Start conversations, reply to others, and keep discussions organized, all in a simple, engaging space designed for meaningful connections.</p>
                         <div class="button-wrap">
-                        <button className="button" onClick={() => {
+                            <button className="button" onClick={() => {
                                 window.open('https://github.com/sayanbiswas2468/Texts', '_blank');
                             }}>Visit &rarr;</button>
                         </div>
@@ -71,6 +72,20 @@ function Work() {
                         <div class="button-wrap">
                             <button className="button" onClick={() => {
                                 window.open('https://github.com/sayanbiswas2468/Mi-Store', '_blank');
+                            }}>Visit &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="single">
+                    <div className="single-img">
+                        <img src={Bankease} alt="" />
+                    </div>
+                    <div className="single-detail">
+                        <h4>Bankease</h4>
+                        <p>An account management software, you can add cards, transfer money, and view transactions by category—all in one place. Stay organized and in control of your finances effortlessly.</p>
+                        <div class="button-wrap">
+                            <button className="button" onClick={() => {
+                                window.open('https://github.com/sayanbiswas2468/banking_app', '_blank');
                             }}>Visit &rarr;</button>
                         </div>
                     </div>

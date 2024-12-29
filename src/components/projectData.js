@@ -2,13 +2,15 @@ import Bankease from '../assets/images/Bankease.png'
 import Geargrid from '../assets/images/Geargrid.png'
 import Mistore from '../assets/images/Mi-Store.png'
 import Texts from '../assets/images/Texts.png'
+import AiInterview from '../assets/images/AiInterview.png'
+
 export const ProjectData = [
     {
-        title: "Bankease",
-        description: "An account management software, you can add cards, transfer money, and view transactions by category—all in one place. Stay organized and in control of your finances effortlessly.",
-        img: Bankease,
+        title: "Zeko Ai",
+        description: "Designed an AI-powered interview platform that leverages advanced AI to conduct seamless and interactive interviews. The platform enables efficient candidate evaluation through real-time AI-driven assessments and feedback.",
+        img: AiInterview,
         stack: "Next Js",
-        link: "https://github.com/sayanbiswas2468/banking_app"
+        link: "https://github.com/sayanbiswas2468/Ai-Interview"
     },
     {
         title: "Geargrid",
@@ -30,6 +32,13 @@ export const ProjectData = [
         img: Mistore,
         stack: "React",
         link: "https://github.com/sayanbiswas2468/Mi-Store"
+    },
+    {
+        title: "Bankease",
+        description: "An account management software, you can add cards, transfer money, and view transactions by category—all in one place. Stay organized and in control of your finances effortlessly.",
+        img: Bankease,
+        stack: "Next Js",
+        link: "https://github.com/sayanbiswas2468/banking_app"
     },
     
 ];
